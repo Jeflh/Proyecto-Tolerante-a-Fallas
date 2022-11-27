@@ -1,9 +1,14 @@
 # Proyecto-Tolerante-a-Fallas 
 **Servidor de Minecraft**
 
-** Insalar minikube
+## Insalar minikube
+winget install minikube
+![image](https://user-images.githubusercontent.com/88942550/204116880-8862432d-5fe8-49b5-86c4-099efc531021.png)
 
-## winget install minikube
+minikube start
+![image](https://user-images.githubusercontent.com/88942550/204116886-8838acba-b701-4759-82fc-33acdf2def74.png)
+
+
 
 **Comando de creacion de nuestro Contenedor:**<br><br>
 docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
