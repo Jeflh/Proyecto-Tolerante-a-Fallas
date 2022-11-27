@@ -15,8 +15,7 @@ docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docke
 
 **Configuración de Servidor en Minecraft:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116533-b70af9d1-8d5d-4e48-b406-a20e5371e28e.png)
-![image](https://user-images.githubusercontent.com/91103822/204116547-55483704-be9b-44f2-88d0-2af301d7a319.png)
-
+![image](https://user-images.githubusercontent.com/91103822/204116565-0be16f0d-9e98-42f8-939b-f6fff7721a9b.png)
 
 
 **Pruebas:**<br><br>
