@@ -2,7 +2,8 @@
 **Servidor de Minecraft**
 
 ** Insalar minikube
-[winget install minikube]
+
+## winget install minikube
 
 **Comando de creacion de nuestro Contenedor:**<br><br>
 docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
