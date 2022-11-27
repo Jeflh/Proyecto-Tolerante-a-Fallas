@@ -19,5 +19,8 @@ docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docke
 
 
 **Pruebas:**<br><br>
+![2022-11-26_20 32 40](https://user-images.githubusercontent.com/91103822/204116729-f06291ff-751b-4670-938d-d62650ab15df.png)
+![2022-11-26_20 36 20](https://user-images.githubusercontent.com/91103822/204116730-535bcd2d-b5ed-4929-84a8-9da835017739.png)
+![2022-11-26_20 01 00](https://user-images.githubusercontent.com/91103822/204116732-99e8e7ab-1fe6-44db-b069-abcf8bf4238c.png)
 ![image](https://user-images.githubusercontent.com/91103822/204116673-b20b7a4a-c5ab-4811-8e50-294baa725925.png)
-![image](https://user-images.githubusercontent.com/91103822/204116679-42e2aa84-5628-40f6-b9e7-b05f5dd37234.png)
+
