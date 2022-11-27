@@ -2,10 +2,11 @@
 **Servidor de Minecraft**
 
 ## Insalar minikube
-winget install minikube
-![image](https://user-images.githubusercontent.com/88942550/204116880-8862432d-5fe8-49b5-86c4-099efc531021.png)
+### winget install minikube
+![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
 
-minikube start
+
+### minikube start
 ![image](https://user-images.githubusercontent.com/88942550/204116886-8838acba-b701-4759-82fc-33acdf2def74.png)
 
 
