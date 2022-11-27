@@ -9,7 +9,8 @@
 ### minikube start
 ![image](https://user-images.githubusercontent.com/88942550/204116886-8838acba-b701-4759-82fc-33acdf2def74.png)
 
-### Activar Hyper-V Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online
+### Activar Hyper-V
+#### Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online
 ![image](https://user-images.githubusercontent.com/91103822/204117028-8f48b677-cd19-4c8f-982a-88e44a3dad19.png)
 ![image](https://user-images.githubusercontent.com/88942550/204116988-c2c7a7a7-194e-4141-ac5b-0bd6d10e3790.png)
 
