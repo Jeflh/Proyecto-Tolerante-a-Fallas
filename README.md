@@ -2,8 +2,11 @@
 **Servidor de Minecraft**
 
 Juan José Salazar Villegas
+
 Paola Vanessa Del Río Gómez
+
 Juen Emmanuel Fernández de Lara Hernández
+
 
 ## Insalar minikube
 ### winget install minikube
