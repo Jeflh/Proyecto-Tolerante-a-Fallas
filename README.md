@@ -1,6 +1,5 @@
 # Proyecto-Tolerante-a-Fallas 
 **Servidor de Minecraft**
-[Rubrica para evaluar competencias I5915 (3).pdf](https://github.com/Jeflh/Proyecto-Tolerante-a-Fallas/files/10149395/Rubrica.para.evaluar.competencias.I5915.3.pdf)
 
 Juan José Salazar Villegas
 
