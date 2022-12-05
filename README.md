@@ -3,9 +3,9 @@
 
 Juan José Salazar Villegas
 
-Paola Vanessa Del Río Gómez
+Paola Vanessa Del Rio Gómez
 
-Juen Emmanuel Fernández de Lara Hernández
+Juan Emmanuel Fernández de Lara Hernández
 
 
 ## Insalar minikube
