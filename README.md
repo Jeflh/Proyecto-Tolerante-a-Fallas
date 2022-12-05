@@ -21,6 +21,21 @@ Juen Emmanuel Fernández de Lara Hernández
 ![image](https://user-images.githubusercontent.com/91103822/204117028-8f48b677-cd19-4c8f-982a-88e44a3dad19.png)
 ![image](https://user-images.githubusercontent.com/88942550/204116988-c2c7a7a7-194e-4141-ac5b-0bd6d10e3790.png)
 
+## kubernetes
+
+![image](https://user-images.githubusercontent.com/91103822/205562986-34a12e9b-2386-4dab-b764-6aef5ced26e1.png)
+
+**Conexion entre host (the online terminal) y el kubernetes cluster:**<br><br>
+
+![image](https://user-images.githubusercontent.com/91103822/205563141-e32c679c-068d-4953-a9b6-f54301e0024c.png)
+![image](https://user-images.githubusercontent.com/91103822/205563170-fa9f2d27-3db2-45ab-b11f-4b910e6d9b90.png)
+![image](https://user-images.githubusercontent.com/91103822/205563183-cec21b0e-a1d0-48aa-9d51-0fb40d32994e.png)
+##Pot name:
+servidor-minecraft-9c75f8f98-2zz26
+![image](https://user-images.githubusercontent.com/91103822/205563191-48114723-4d68-4c65-8496-e9502b4a5fc5.png)
+
+
+![image](https://user-images.githubusercontent.com/91103822/205563008-bd402d1b-08e4-461a-80d4-f32bc253a77e.png)
 
 **Comando de creacion de nuestro Contenedor:**<br><br>
 docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
@@ -46,6 +61,16 @@ docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docke
 
 **CheekyMonkey**<br><br>
 ![image](https://user-images.githubusercontent.com/88942550/205560120-cff0986d-72c9-400a-8424-cde0e59f6c00.png)
+
+**Chaos toolkit **<br><br>
+
+## Instalacion y version
+![image](https://user-images.githubusercontent.com/91103822/205562790-3e3c9d65-e479-42dc-bf03-b59901ba0c75.png)
+
+## init chaos
+![image](https://user-images.githubusercontent.com/91103822/205562880-2e8536e9-feb8-41ce-bea0-047e6923165b.png)
+
+
 
 
 
