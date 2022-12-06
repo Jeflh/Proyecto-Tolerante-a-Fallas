@@ -16,24 +16,35 @@
 
 ### Fundamentos de Desarrollo - Estructura de Servidores
 
-> Dentro de este Proyecto se busca establecer un servidor de Minecraft el cual con ayuda de 🐳 Docker compose unifique diferentes pots siendo cada uno de estos un mundo distinto el cual con la linea de comandos misma de minecraft nos ayude a desplazar entre estos pots(Mundos) Unificando el trafico por pot y no afectando los demás.
+> 📌 Dentro de este Proyecto se busca establecer un servidor de Minecraft el cual con ayuda de 🐳 Docker compose unifique diferentes pots siendo cada uno de estos un mundo distinto el cual con la linea de comandos misma de minecraft nos ayude a desplazar entre estos pots(Mundos) Unificando el trafico por pot y no afectando los demás.
 > 
 
 
 # Instalación de minikube
+> ❗ Minikubes nos ayudará como herramienta ya que este virtualizara una maquina la cual nos dara un entorno mas sencillo para trabajar kubernetes
+  Para ello usamos los siguientes comandos:
+> 
+#### Instalación:
     winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
 
-
-### minikube start
+#### Iniciar Maquina Virtual:
+    minikube start
 ![image](https://user-images.githubusercontent.com/88942550/204116886-8838acba-b701-4759-82fc-33acdf2def74.png)
 
-### Activar Hyper-V
-#### Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online
+# Activar Hyper-V
+> Al trabajar en un entorno de Windows fue necesario el establecer dicha configuracion para la virtualización ademas de que sin ella no tendriamos funcionando nuestro minikubes virtualizado. **Nota:** Si no se virtualiza puede ser necesario buscar en la bios dicho apartado de Intel para su virtualización.
+> 
+
+    Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online
+    
 ![image](https://user-images.githubusercontent.com/91103822/204117028-8f48b677-cd19-4c8f-982a-88e44a3dad19.png)
+
+###Establecer imagen de HYPER-V
+    DISM /online /enable-feature /All/FeatureName:Microsofth-Hyper-V
 ![image](https://user-images.githubusercontent.com/88942550/204116988-c2c7a7a7-194e-4141-ac5b-0bd6d10e3790.png)
 
-## kubernetes
+# Entorno de Desarrollo kubernetes
 
 ![image](https://user-images.githubusercontent.com/91103822/205562986-34a12e9b-2386-4dab-b764-6aef5ced26e1.png)
 
