@@ -72,8 +72,8 @@ o tambien:
 > Gracias a este comando podremos saber el nombre de Nuestro pot para operar con el cabe resaltar que cada una de estas al desglosarnos la información podremos is desplazandonos esto en la misma url en este caso usando: 
 * Vistas
   * http://127.0.0.1:8001 - Puerto por defecto
-  * /version - Nos mostrara datos de version de cada dependencia
-  * /pots - Usado para ver nuestros pods activos y sus caracteristicas viendo su estatus asi como su configuración.
+  * **/version** - Nos mostrara datos de version de cada dependencia
+  * **/pots** - Usado para ver nuestros pods activos y sus caracteristicas viendo su estatus asi como su configuración.
 > 
 ## Nombre de nuestro Pot:
 
@@ -89,23 +89,28 @@ o tambien:
 > 
 
 * Partes del comando:
-  * -e EULA=TRUE - Acepta los terminos y condiciones con Mojang
-  * -p 25565:25565 - Nos mostrara datos de version de cada dependencia
-  * temp_data2:/data - Crea los archivos en la carpeta seleccionada "temp_data2" para establecer los datos de nuestro servidor
-  * itzg/minecraft-server:latest - Establcemos la imagen de Docker Hub asi como la ultima version en la que esta se encuentra disponible.
+  * **-e EULA=TRUE** - Acepta los terminos y condiciones con Mojang
+  * **-p 25565:25565** - Esatableceremos los puertos de acceso.
+  * **temp_data2:/data** - Crea los archivos en la carpeta seleccionada "temp_data2" para establecer los datos de nuestro servidor
+  * **itzg/minecraft-server:latest** - Establcemos la imagen de Docker Hub asi como la ultima version en la que esta se encuentra disponible.
 
 ### Comando de creacion de nuestro Contenedor:
        
     docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
 
 
-** 🐳 Contenedor en Doker:**<br><br>
+
+#### **🐳 Contenedor en Doker:**
+
 ![image](https://user-images.githubusercontent.com/91103822/204116265-3ca4b3d9-8dde-4fb7-9aab-060a649a5bc6.png)
 **Volumen:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116282-8ebdce5a-3e8c-4290-9aaa-965294bee084.png)
 **Creacion de Mundo:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116295-d3e4a245-d4cb-4903-9afb-2d1bd929b62d.png)
+
 **Contenido de servidor:**<br><br>
+> Aqui optenemos base a nuestro comando aquellos archivos descargados para que sean configurables en este caso cambiamos el online mode a false permitiendo entrar sin contar con alguna cuenta premium ademas de que podremos cargar nuestros mundos personalizados asi como configurar los puertos , la IP entre otros.
+>  
 ![image](https://user-images.githubusercontent.com/91103822/204116316-f42e18c3-9ce4-4482-b645-639e89197624.png)
 
 ***
