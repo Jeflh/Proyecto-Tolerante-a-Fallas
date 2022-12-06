@@ -2,9 +2,9 @@
 ![image (1)](https://user-images.githubusercontent.com/91103822/205793693-a41a1781-b051-4845-b56a-1a35a220d4d0.png)
 ### Servidor de Minecraft 🧊 🐳 ⚓
 * Integrantes
-  * Juan José Salazar Villegas ❤ ❤ ❤ ❤ ❤
-  * Paola Vanessa Del Río Gómez   ❤ ❤ ❤ ❤ ❤
-  * Juan Emmanuel Fernández de Lara Hernández ❤ ❤ ❤ ❤ ❤
+  * Juan José Salazar Villegas | ❤ ❤ ❤ ❤ ❤ | 🍗🍗🍗🍗| 
+  * Paola Vanessa Del Río Gómez  | ❤ ❤ ❤ ❤ ❤ |🍗🍗🍗🍗| 
+  * Juan Emmanuel Fernández de Lara Hernández |❤ ❤ ❤ ❤ ❤ | 🍗🍗🍗🍗|
 
 ***
 #### Imagenes usadas de docker Hub
