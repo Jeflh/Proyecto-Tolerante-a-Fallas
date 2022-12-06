@@ -88,13 +88,18 @@ o tambien:
 > Ahora toca establecer nuestra imagen esto realizandolo con Docker desktop que al igual podemos utilizar la CLI esto usando la imagen anteriormente dicha, Ahora bien este comando no solo creara nuestro contenedor si no que tambien lo nicializara **Ya que con este comando aceptamos la EULA  DE MINECRAFT** haciendo que nos deje descargar las caracteristicas y configuracion base de nuestro servidor que luego podremos editar asi pues este comando hara lo siguiente:
 > 
 
-
+* Partes del comando:
+  * -e EULA=TRUE - Acepta los terminos y condiciones con Mojang
+  * -p 25565:25565 - Nos mostrara datos de version de cada dependencia
+  * temp_data2:/data - Crea los archivos en la carpeta seleccionada "temp_data2" para establecer los datos de nuestro servidor
+  * itzg/minecraft-server:latest - Establcemos la imagen de Docker Hub asi como la ultima version en la que esta se encuentra disponible.
 
 ### Comando de creacion de nuestro Contenedor:
        
     docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
 
-**Contenedor en Doker:**<br><br>
+
+** 🐳 Contenedor en Doker:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116265-3ca4b3d9-8dde-4fb7-9aab-060a649a5bc6.png)
 **Volumen:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116282-8ebdce5a-3e8c-4290-9aaa-965294bee084.png)
@@ -103,11 +108,16 @@ o tambien:
 **Contenido de servidor:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116316-f42e18c3-9ce4-4482-b645-639e89197624.png)
 
+***
+
+# 🏔 Configurando Nuestro Servidor en minecraft 🏔
+
 **Configuración de Servidor en Minecraft:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116533-b70af9d1-8d5d-4e48-b406-a20e5371e28e.png)
 ![image](https://user-images.githubusercontent.com/91103822/204116565-0be16f0d-9e98-42f8-939b-f6fff7721a9b.png)
 
 ***
+
 # ⚙ Apartado de Pruebas ⚙
 
 > Como podremos observar al seguir los pasos e instalar nuestra imagen de minecraft de **Docker hub** podremos entrar facilmente con solo iniciar nuestro cluster o si lo creamos desde 0 con el comando que inicializa nuestro contenedor.
