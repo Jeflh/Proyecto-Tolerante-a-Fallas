@@ -1,9 +1,9 @@
 # Proyecto-Tolerante-a-Fallas 
 **Servidor de Minecraft**
-*Integrantes
-  *Juan José Salazar Villegas
-  *Paola Vanessa Del Río Gómez
-  *Juen Emmanuel Fernández de Lara Hernández
+* Integrantes
+  * Juan José Salazar Villegas
+  * Paola Vanessa Del Río Gómez
+  * Juan Emmanuel Fernández de Lara Hernández
 
 ***
 
