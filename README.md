@@ -10,11 +10,13 @@
 #### Imagenes usadas de docker Hub
 > Para la practica se utilizo la versión de "Java Edition" (Se anexan las demas versiones por Segun se necesite).
 * Doker Images para minecraft:
- *  [itzg/minecraft-server - JAVA](/[es](https://hub.docker.com/r/itzg/minecraft-server)).
- *  [itzg/minecraft-bedrock-server - BEDROCK](/[es] (https://hub.docker.com/r/itzg/minecraft-bedrock-server)).
- *  [itzg/bungeecord - CONTENEDOR](/[es] (https://hub.docker.com/r/itzg/bungeecord)).
+ * ☕ [itzg/minecraft-server - JAVA](/[es](https://hub.docker.com/r/itzg/minecraft-server)).
+ * 🌑 [itzg/minecraft-bedrock-server - BEDROCK](/[es] (https://hub.docker.com/r/itzg/minecraft-bedrock-server)).
+ * 🧊 [itzg/bungeecord - CONTENEDOR](/[es] (https://hub.docker.com/r/itzg/bungeecord)).
 
+### Fundamentos de Desarrollo - Estructura de Servidores
 
+> Dentro de este Proyecto se busca establecer un servidor de Minecraft el cual con ayuda de 🐳 Docker compose unifique diferentes pots siendo cada uno de estos un mundo distinto el cual con la linea de comandos misma de minecraft nos ayude a desplazar entre estos pots(Mundos) Unificando el trafico por pot y no afectando los demás.
 -------------------------------------------------Viejo
 ## Insalar minikube
 ### winget install minikube
