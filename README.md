@@ -87,7 +87,7 @@ o tambien:
 
     kubectl get deployments
 
-### ** 🧭Conexion entre host (the online terminal) y el kubernetes cluster: **
+### **🧭Conexion entre host (the online terminal) y el kubernetes cluster:**
 ![image](https://user-images.githubusercontent.com/91103822/205563141-e32c679c-068d-4953-a9b6-f54301e0024c.png)
 
 **Comando:**
@@ -95,7 +95,9 @@ o tambien:
     kubectl proxy
   
 ### Navegación entre directorios:
+**Origen - localhost**
 ![image](https://user-images.githubusercontent.com/91103822/205563170-fa9f2d27-3db2-45ab-b11f-4b910e6d9b90.png)
+**Version **
 ![image](https://user-images.githubusercontent.com/91103822/205563183-cec21b0e-a1d0-48aa-9d51-0fb40d32994e.png)
 
 > Gracias a este comando podremos saber el nombre de Nuestro pot para operar con el cabe resaltar que cada una de estas al desglosarnos la información podremos is desplazandonos esto en la misma url en este caso usando: 
@@ -150,9 +152,20 @@ o tambien:
 
 # 🏔 Configurando Nuestro Servidor en minecraft 🏔
 
+> Estamos a un paso de entrar y disfrutar de nuestro servidor, para ello solo basta con configurar base a los puertos asignados y la ip local nuestro mundo. Para ello noso basta con entrar **Multiplayer - Agregar Servidor - Ponemos el IP (Cambiar el nombre de servidor es opcional)**
+
 **Configuración de Servidor en Minecraft:**<br><br>
 ![image](https://user-images.githubusercontent.com/91103822/204116533-b70af9d1-8d5d-4e48-b406-a20e5371e28e.png)
+### Asiganmos nuestra ip local siendo si es necesario agregar los puertos establecidos:
+
+**IP**
+   
+    127.0.0.1
+ 
 ![image](https://user-images.githubusercontent.com/91103822/204116565-0be16f0d-9e98-42f8-939b-f6fff7721a9b.png)
+
+> Ya configurado podremos acceder a nuestro servidor y jugar normalmente.
+
 
 ***
 
