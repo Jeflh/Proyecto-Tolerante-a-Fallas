@@ -7,6 +7,7 @@
   * Juan Emmanuel Fernández de Lara Hernández ❤❤❤❤❤  🍗🍗🍗🍗
 
 ***
+
 #### Imagenes usadas de docker Hub
 > Para la practica se utilizo la versión de "Java Edition" (Se anexan las demas versiones por Segun se necesite).
 * Doker Images para minecraft:
@@ -25,10 +26,14 @@
   Para ello usamos los siguientes comandos:
 > 
 #### Instalación:
+    New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri   'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing
+  
+o tambien:
+    
     winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
 
-#### Iniciar Maquina Virtual:
+#### Iniciar Maquina Virtual (Kluster):
     minikube start
 ![image](https://user-images.githubusercontent.com/88942550/204116886-8838acba-b701-4759-82fc-33acdf2def74.png)
 
@@ -40,11 +45,18 @@
     
 ![image](https://user-images.githubusercontent.com/91103822/204117028-8f48b677-cd19-4c8f-982a-88e44a3dad19.png)
 
-###Establecer imagen de HYPER-V
+### Establecer imagen de HYPER-V
     DISM /online /enable-feature /All/FeatureName:Microsofth-Hyper-V
 ![image](https://user-images.githubusercontent.com/88942550/204116988-c2c7a7a7-194e-4141-ac5b-0bd6d10e3790.png)
 
-# Entorno de Desarrollo kubernetes
+# Entorno de Desarrollo kubernetes - minikube
+
+> Al tener listo nuestra virtualización podremos trabajar facilmente con kubernetes y por ello aplicaremos dischos comandos para ver su funcionamiento y lo que contiene desde nuestro Nodo hasta nuestro pot (Servidor de minecraf).
+
+Para inicializar nuestro Cluster de minikube solo basta con contar una manera de Virtualización (Vitual-Box, HyperVizor, Docker Desktop).
+> 
+
+
 
 ![image](https://user-images.githubusercontent.com/91103822/205562986-34a12e9b-2386-4dab-b764-6aef5ced26e1.png)
 
