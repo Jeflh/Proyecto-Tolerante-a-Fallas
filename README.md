@@ -1,5 +1,5 @@
 # Proyecto-Tolerante-a-Fallas 
-![image (1)](https://user-images.githubusercontent.com/91103822/205793693-a41a1781-b051-4845-b56a-1a35a220d4d0.png)
+![image (1)](https://user-images.githubusercontent.com/91103822/205793693-a41a1781-b051-4845-b56a-1a35a220d4d0.png) 
 ### Servidor de Minecraft 🧊 🐳 ⚓
 * Integrantes
   * Juan José Salazar Villegas  ❤❤❤❤❤  🍗🍗🍗🍗
@@ -37,7 +37,7 @@ o tambien:
     winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
 
-#### Iniciar Maquina Virtual (Kluster):
+#### Iniciar Maquina Virtual (Cluster):
     minikube start
     
 ![image](https://user-images.githubusercontent.com/91103822/205827285-9724a1e3-5f1a-4ba7-9774-ac2f815c092e.png)
@@ -60,12 +60,41 @@ o tambien:
 
 > Al tener listo nuestra virtualización podremos trabajar facilmente con kubernetes y por ello aplicaremos dischos comandos para ver su funcionamiento y lo que contiene desde nuestro Nodo hasta nuestro pot (Servidor de minecraf). Para inicializar nuestro Cluster de minikube solo basta con contar una manera de Virtualización (Vitual-Box, HyperVizor, Docker Desktop).
 > 
-
+### Inicializamos y comprobamos nuestro Cluster
 ![image](https://user-images.githubusercontent.com/91103822/205562986-34a12e9b-2386-4dab-b764-6aef5ced26e1.png)
 
-**Conexion entre host (the online terminal) y el kubernetes cluster:**<br><br>
+#### Los comandos implementados son los siguientes:
 
+**Inicializa Cluster**
+
+    minikube start
+ **Confirmamos Funcionamiento de Kubernetes con su versión **   
+ 
+    kubectl version
+**Consultamos información de nuestro Cluster**
+    
+    kubectl cluster-info dump
+
+**Obtenemos los nodos activos**
+    
+    kubectl get nodes
+    
+**Creamos nuestra imagen desde Docker Hub**
+    
+    kubectl create deployment servidor-minecraft --image=itzg/minecraft-server
+
+**Consultamos nuestro deploymen (Pot) de nuestra imagen creada**
+
+    kubectl get deployments
+
+### ** 🧭Conexion entre host (the online terminal) y el kubernetes cluster: **
 ![image](https://user-images.githubusercontent.com/91103822/205563141-e32c679c-068d-4953-a9b6-f54301e0024c.png)
+
+**Comando:**
+
+    kubectl proxy
+  
+### Navegación entre directorios:
 ![image](https://user-images.githubusercontent.com/91103822/205563170-fa9f2d27-3db2-45ab-b11f-4b910e6d9b90.png)
 ![image](https://user-images.githubusercontent.com/91103822/205563183-cec21b0e-a1d0-48aa-9d51-0fb40d32994e.png)
 
@@ -75,7 +104,8 @@ o tambien:
   * **/version** - Nos mostrara datos de version de cada dependencia
   * **/pots** - Usado para ver nuestros pods activos y sus caracteristicas viendo su estatus asi como su configuración.
 > 
-###$ Directorio de nuestro servidor
+### Directorio de nuestro servidor
+
 ![image](https://user-images.githubusercontent.com/91103822/205844441-fb2a3231-5191-4f3f-ae1f-e73cb37f1c19.png)
 
 ## Obteniendo nombre de nuestro Pot:
@@ -140,7 +170,8 @@ o tambien:
 
 # 🗺 Conexion entre mundos (Pots) 🗺
 
-https://media.discordapp.net/attachments/1013981938207436823/1049495542452989972/image.png
+![image](https://user-images.githubusercontent.com/91103822/205848652-1165621e-178c-4e05-b083-fdf92f24e8b2.png)
+
 >Al nosotros tener nuestro primer pot establecido creamos otro mas para tener una conexion entre ellos, ya conectados podemos acceder gracias a docker compose al tener interaccion directa entre aplicaciones o multiples contenedores y estos van de la mano con un archivo **YML** el cual como veremos en nuestros archivos ** Configura los servicios de nuestra aplicacion y posteriormente con un solo comando iniciaremos todos los servicios desde dicha configuración **
 >
 
