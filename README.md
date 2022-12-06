@@ -68,14 +68,29 @@ o tambien:
 ![image](https://user-images.githubusercontent.com/91103822/205563141-e32c679c-068d-4953-a9b6-f54301e0024c.png)
 ![image](https://user-images.githubusercontent.com/91103822/205563170-fa9f2d27-3db2-45ab-b11f-4b910e6d9b90.png)
 ![image](https://user-images.githubusercontent.com/91103822/205563183-cec21b0e-a1d0-48aa-9d51-0fb40d32994e.png)
-##Pot name:
+
+> Gracias a este comando podremos saber el nombre de Nuestro pot para operar con el cabe resaltar que cada una de estas al desglosarnos la información podremos is desplazandonos esto en la misma url en este caso usando: 
+* Vistas
+  * http://127.0.0.1:8001 - Puerto por defecto
+  * /version - Nos mostrara datos de version de cada dependencia
+  * /pots - Usado para ver nuestros pods activos y sus caracteristicas viendo su estatus asi como su configuración.
+> 
+## Nombre de nuestro Pot:
 
     servidor-minecraft-9c75f8f98-2zz26
     
 ![image](https://user-images.githubusercontent.com/91103822/205563191-48114723-4d68-4c65-8496-e9502b4a5fc5.png)
-![image](https://user-images.githubusercontent.com/91103822/205563008-bd402d1b-08e4-461a-80d4-f32bc253a77e.png)
 
-**Comando de creacion de nuestro Contenedor:**<br><br>
+***
+
+# 🐳 Creando nuestra imagen en Docker 🐳
+
+> Ahora toca establecer nuestra imagen esto realizandolo con Docker desktop que al igual podemos utilizar la CLI esto usando la imagen anteriormente dicha, Ahora bien este comando no solo creara nuestro contenedor si no que tambien lo nicializara **Ya que con este comando aceptamos la EULA  DE MINECRAFT** haciendo que nos deje descargar las caracteristicas y configuracion base de nuestro servidor que luego podremos editar asi pues este comando hara lo siguiente:
+> 
+
+
+
+### Comando de creacion de nuestro Contenedor:
        
     docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docker\temp_data2:/data itzg/minecraft-server:latest
 
