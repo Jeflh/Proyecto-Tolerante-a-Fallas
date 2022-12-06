@@ -1,5 +1,5 @@
 # Proyecto-Tolerante-a-Fallas 
-**Servidor de Minecraft**
+####Servidor de Minecraft 🐳 ⚓
 * Integrantes
   * Juan José Salazar Villegas
   * Paola Vanessa Del Río Gómez
