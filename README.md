@@ -25,7 +25,7 @@
 > 
 <!--  INSTALAICION DE MINIKUBES-->
 
-# Instalación de minikube
+# 📥 Instalación de minikube 📥
 > ❗ Minikubes nos ayudará como herramienta ya que este virtualizara una maquina la cual nos dara un entorno mas sencillo para trabajar kubernetes
   Para ello usamos los siguientes comandos:
 > 
@@ -42,7 +42,7 @@ o tambien:
     
 ![image](https://user-images.githubusercontent.com/91103822/205827285-9724a1e3-5f1a-4ba7-9774-ac2f815c092e.png)
 
-# Activar Hyper-V
+# ✔ Activar Hyper-V ✔
 > Al trabajar en un entorno de Windows fue necesario el establecer dicha configuracion para la virtualización ademas de que sin ella no tendriamos funcionando nuestro minikubes virtualizado. **Nota:** Si no se virtualiza puede ser necesario buscar en la bios dicho apartado de Intel para su virtualización.
 > 
 
