@@ -1,14 +1,14 @@
 # Proyecto-Tolerante-a-Fallas 
 **Servidor de Minecraft**
+*Integrantes
+  *Juan José Salazar Villegas
+  *Paola Vanessa Del Río Gómez
+  *Juen Emmanuel Fernández de Lara Hernández
 
-Juan José Salazar Villegas
-
-Paola Vanessa Del Rio Gómez
-
-Juan Emmanuel Fernández de Lara Hernández
+***
 
 
-
+-------------------------------------------------Viejo
 ## Insalar minikube
 ### winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
@@ -60,14 +60,10 @@ docker run -e EULA=TRUE -p 25565:25565 -v C:\Users\Salvi\Desktop\Minecraft-Docke
 ![2022-11-26_20 01 00](https://user-images.githubusercontent.com/91103822/204116732-99e8e7ab-1fe6-44db-b069-abcf8bf4238c.png)
 ![image](https://user-images.githubusercontent.com/91103822/204116673-b20b7a4a-c5ab-4811-8e50-294baa725925.png)
 
-**Chaos Engineering**
-
-----
-
 **CheekyMonkey**<br><br>
 ![image](https://user-images.githubusercontent.com/88942550/205560120-cff0986d-72c9-400a-8424-cde0e59f6c00.png)
 
-**Chaos toolkit**<br><br>
+**Chaos toolkit **<br><br>
 
 ## Instalacion y version
 ![image](https://user-images.githubusercontent.com/91103822/205562790-3e3c9d65-e479-42dc-bf03-b59901ba0c75.png)
