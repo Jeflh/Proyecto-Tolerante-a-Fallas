@@ -1,0 +1,122 @@
+version: '2'
+# Version 2020.09.0.013 Minecraft Server
+
+services:
+  minecraft-bungee:
+    #https://www.spigotmc.org/wiki/bungeecord-configuration-guide/
+    image: itzg/bungeecord
+    container_name: minecraft-bungee
+    ports:
+      - "25577:25577"
+    volumes:
+      - /media/config/serverBungee:/server/
+    restart: always
+    environment:
+      PLUGINS: http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/bungee/ajQueue.jar, http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/bungee/LiteAnnouncer.jar,http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/bungee/WCNP.jar
+    mem_limit: 512000000 #512m
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "25m" 
+    network_mode: "host" #Va usar la IP del host como si se ejecutase hay dentro de casa funcionara bien
+
+  sminecraft:
+    #https://github.com/itzg/docker-minecraft-server/blob/master/README.md
+    image: itzg/minecraft-server
+    container_name: sminecraft
+    ports:
+      - "25501:25501"
+    environment:
+      TYPE: "SPIGOT"
+      #VERSION: "1.16.2"
+      EULA: "TRUE"
+      SERVER_PORT : "25501"
+      ENABLE_RCON : "FALSE"
+      RCON_PASSWORD : "!Test1234"
+      RCON_PORT : "25511"
+      ONLINE_MODE: "FALSE"
+      MAX_PLAYERS: 10
+      REMOVE_OLD_MODS: "TRUE"
+      WORLD: http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/minecraft/Novigrad.zip
+      MODPACK: http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/minecraft/Essentials.zip
+      MODS: http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/minecraft/Vault.jar, http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/minecraft/Citizens.jar ,http://mrubiodev.com/youtube/03.-Docker-Compose%20Minecraft/minecraft/LoginSecurity.jar
+    volumes:
+      - /media/config/serverMinecraft:/data
+    tty: true
+    stdin_open: true
+    restart: on-failure:5
+    mem_limit:       1500000000 #1.5Gbytes 
+    mem_reservation: 512000000  #512Mbytes    
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "25m" 
+    network_mode: "host" #Va usar la IP del host como si se ejecutase hay dentro de casa funcionara bien
+
+  sminecraft_lobby:
+    image: itzg/minecraft-server
+    container_name: slobbyminecraft
+    ports:
+      - "25502:25502"
+    environment:
+      TYPE: "SPIGOT"
+      #VERSION: "1.16.2"
+      EULA: "TRUE"
+      MEMORY: "768M"
+      MAX_PLAYERS: 5
+      ENABLE_RCON : "FALSE"
+      RCON_PASSWORD : "!Test1234"
+      RCON_PORT : "25512"
+      SERVER_PORT : "25502"
+      ICON: https://mrubiodev.com/images/imagen/mrdev.png
+      ENABLE_QUERY: " true"
+      QUERY_PORT: "25502"
+      MAX_PLAYERS: "5"
+      MAX_WORLD_SIZE: "30"
+      ALLOW_NETHER: "FALSE"
+      ONLINE_MODE: "FALSE"
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: "TRUE"
+      GENERATE_STRUCTURES: "FALSE"
+      MAX_BUILD_HEIGHT: "20"
+      SPAWN_ANIMALS: "FALSE"
+      SPAWN_MONSTERS: "FALSE"
+      SPAWN_NPCS: "FALSE"
+      VIEW_DISTANCE: "30"
+      MOTD: "Welcome To Mrubidev"
+      LEVEL: "ServerLobby"
+    volumes:
+      - /media/config/serverMinecraftLobby:/data
+    tty: true
+    stdin_open: true
+    restart: on-failure:5
+    mem_limit:       768000000 #  768M
+    mem_reservation: 200000000 #  200M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "25m" 
+    network_mode: "host"
+    
+  sminecraft_bedrock:
+    image: itzg/minecraft-bedrock-server
+    container_name: sbrockminecraft
+    ports:
+      - 25504:25504
+    environment:
+      EULA: "TRUE"
+      SERVER_NAME: "MRUBIODEV"
+      SERVER_PORT: "25504"
+      ONLINE_MODE: "false"     
+    volumes:
+      - /media/config/serverMinecraftBedRock:/data
+    tty: true
+    stdin_open: true
+    restart: on-failure:5
+    mem_limit:       768000000 #768M
+    mem_reservation: 254000000 #250M  
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "25m" 
+    network_mode: "host" 
+  
