@@ -75,7 +75,10 @@ o tambien:
   * **/version** - Nos mostrara datos de version de cada dependencia
   * **/pots** - Usado para ver nuestros pods activos y sus caracteristicas viendo su estatus asi como su configuración.
 > 
-## Nombre de nuestro Pot:
+###$ Directorio de nuestro servidor
+![image](https://user-images.githubusercontent.com/91103822/205844441-fb2a3231-5191-4f3f-ae1f-e73cb37f1c19.png)
+
+## Obteniendo nombre de nuestro Pot:
 
     servidor-minecraft-9c75f8f98-2zz26
     
@@ -123,7 +126,7 @@ o tambien:
 
 ***
 
-# ⚙ Apartado de Pruebas ⚙
+# ⚙🔧 Apartado de Pruebas ⛏⚙
 
 > Como podremos observar al seguir los pasos e instalar nuestra imagen de minecraft de **Docker hub** podremos entrar facilmente con solo iniciar nuestro cluster o si lo creamos desde 0 con el comando que inicializa nuestro contenedor.
 > 
@@ -134,9 +137,46 @@ o tambien:
 ![image](https://user-images.githubusercontent.com/91103822/204116673-b20b7a4a-c5ab-4811-8e50-294baa725925.png)
 
 ***
-# ⚙ Chaos Engineering ⚙
 
-> En este apartado se dio pruebas con herramientas de Chaos Engineering esto para ver el tiempo de reacción y restablecimiento de nuestra aplicacion desplegada. Las pruebas realizadas fueron realizadas con init Chaos el cual al establecer neustra prueba nos dara de baja el servicio pero gracias a Kubernetes este se levanta por si solo en poco tiempo,
+# 🗺 Conexion entre mundos (Pots) 🗺
+
+https://media.discordapp.net/attachments/1013981938207436823/1049495542452989972/image.png
+>Al nosotros tener nuestro primer pot establecido creamos otro mas para tener una conexion entre ellos, ya conectados podemos acceder gracias a docker compose al tener interaccion directa entre aplicaciones o multiples contenedores y estos van de la mano con un archivo **YML** el cual como veremos en nuestros archivos ** Configura los servicios de nuestra aplicacion y posteriormente con un solo comando iniciaremos todos los servicios desde dicha configuración **
+>
+
+## POT 1 - Servidor 1 funcional 
+![image](https://user-images.githubusercontent.com/91103822/205846174-a83b0137-86de-47af-815e-ab4c068851f6.png)
+
+## POT  - Servidor 2 funcional 
+![image](https://user-images.githubusercontent.com/91103822/205846199-e95291c5-e9cf-4cb3-b9fd-5c20ce831f1c.png)
+
+>**NOTA:** Dentro de nuestro archivo YML como observamos tendremos varias instancias las cuales corresponden anuestros mundos asi tendremos el mundo por defecto que entramos (Pot 1) y nuestro segundo mundo denomindao Lobby. Adema de ver como establecemos nuestro servidor podremos ver como cada contenedor es llamado asi como su configuracion al "Spawnear" el usuario.
+>
+
+### Declaración de Mundo base (POT 1) 🌎
+![image](https://user-images.githubusercontent.com/91103822/205846772-13b41544-8638-4d8e-a66b-28e06e6462b4.png)
+
+### Declaración de mundo Lobby (POT 2) 🌍 
+![image](https://user-images.githubusercontent.com/91103822/205847050-9841be78-f865-4b95-8451-8a1527cb68fe.png)
+
+Comandos para cambiar entre mundos:
+> Para usar los comandos dentro del juego simplemente abriremos nuestro chat y pondremos siempre " / " al tratarse de un comando siendo de la siguiente manera:
+> 
+
+#### Cambiar a Lobby
+
+**De Server (Spawn) a lobby**
+   
+    / server Lobby
+    
+**De Lobby a Spawn**
+   
+    / server server
+
+# 🚫⛔ Chaos Engineering 🚫⛔
+
+> En este apartado se dio pruebas con herramientas de Chaos Engineering esto para ver el tiempo de reacción y restablecimiento de nuestra aplicacion desplegada. Las pruebas realizadas fueron realizadas con init Chaos el cual al establecer neustra prueba nos dara de baja el servicio pero gracias a Kubernetes este se levanta por si solo en poco tiempo.
+> 
 
 
 ### CheekyMonkey
