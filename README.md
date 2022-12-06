@@ -16,8 +16,9 @@
 
 ### Fundamentos de Desarrollo - Estructura de Servidores
 
-> Dentro de este Proyecto se busca establecer un servidor de Minecraft el cual con ayuda de 🐳 Docker compose unifique diferentes pots siendo cada uno de estos un mundo distinto el cual con la linea de comandos misma de minecraft nos ayude a desplazar entre estos pots(Mundos) Unificando el trafico por pot y no afectando los demás.
--------------------------------------------------Viejo
+> Dentro de este Proyecto se busca establecer un servidor de Minecraft el cual con ayuda de 🐳 Docker compose unifique diferentes pots siendo cada uno de estos un mundo distinto el cual con la linea de comandos misma de minecraft nos ayude a desplazar entre estos pots(Mundos) Unificando el trafico por pot y no afectando los demás.>
+
+
 ## Insalar minikube
 ### winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
