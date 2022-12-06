@@ -21,7 +21,7 @@
 
 
 # Instalación de minikube
-### winget install minikube
+    winget install minikube
 ![image](https://user-images.githubusercontent.com/88942550/204116926-cd6494c2-d3ac-4fe9-a7c1-778d61c3c76d.png)
 
 
