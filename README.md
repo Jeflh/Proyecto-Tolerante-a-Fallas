@@ -1,5 +1,5 @@
 # Proyecto-Tolerante-a-Fallas 
-/t ![image (1)](https://user-images.githubusercontent.com/91103822/205793693-a41a1781-b051-4845-b56a-1a35a220d4d0.png)
+![image (1)](https://user-images.githubusercontent.com/91103822/205793693-a41a1781-b051-4845-b56a-1a35a220d4d0.png)
 ### Servidor de Minecraft 🧊 🐳 ⚓
 * Integrantes
   * Juan José Salazar Villegas
@@ -7,8 +7,10 @@
   * Juan Emmanuel Fernández de Lara Hernández
 
 ***
-![image](https://user-images.githubusercontent.com/91103822/205793839-04eb0d98-5f64-4f76-a07b-730f2ff2867f.png) ![image](https://user-images.githubusercontent.com/91103822/205793879-cfed4b4d-95ff-41bf-95aa-5cf93edf4c62.png)
-
+#### Imagenes de docker Hub
+> Para la practica se utilizo la versión de "Java Edition" (Se anexan las demas versiones por Segun se necesite).
+* Doker Images para minecraft:
+ * itzg/minecraft-server [Usada](/[es](https://hub.docker.com/r/itzg/minecraft-server)). 
 
 
 -------------------------------------------------Viejo
