@@ -11,8 +11,8 @@
 > Para la practica se utilizo la versión de "Java Edition" (Se anexan las demas versiones por Segun se necesite).
 * Doker Images para minecraft:
  *  [itzg/minecraft-server - JAVA](/[es](https://hub.docker.com/r/itzg/minecraft-server)).
- *  [itzg/minecraft-server - BEDROCK](/[es] (https://hub.docker.com/r/itzg/minecraft-bedrock-server)).
- *  [itzg/minecraft-server - JAVA](/[es] (https://hub.docker.com/r/itzg/bungeecord)).
+ *  [itzg/minecraft-bedrock-server - BEDROCK](/[es] (https://hub.docker.com/r/itzg/minecraft-bedrock-server)).
+ *  [itzg/bungeecord - CONTENEDOR](/[es] (https://hub.docker.com/r/itzg/bungeecord)).
 
 
 -------------------------------------------------Viejo
